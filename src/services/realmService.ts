@@ -54,7 +54,7 @@ export const initializeRealm = async () => {
 };
 
 // Get realm
-export const getRealm = async () => {
+export const getRealm = () => {
   if (!realm) {
     throw new Error("Realm not initialized");
   }
