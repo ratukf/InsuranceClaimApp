@@ -11,7 +11,7 @@ export interface Claim {
   description: string;
   status: ClaimStatus;
   dateSubmitted: Date;
-  dateApproved: Date;
+  dateApproved?: Date;
   notes?: string;
 }
 
